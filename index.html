@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vincent Tochi | My Tech Journey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1> My Journey in Tech</h1>
+      <p>From coffee beans to code - learning, building, and creating along the way!</p>
+      <button id="themeToggle"> Toggle Dark Mode</button>
+    </header>
+
+    <main>
+      <!-- Interactive Counter -->
+      <section id="counterSection">
+        <h2> My Learning Progress</h2>
+        <p>I've read <span id="bookCount">15</span> books so far </p>
+        <button id="addBook">+ Add a Book</button>
+      </section>
+
+      <!-- Collapsible Timeline -->
+      <section id="timelineSection">
+        <h2> My Tech Timeline</h2>
+        
+        <button class="collapsible">My Early Days</button>
+        <div class="content">
+          <p>Started as a barista, learning about discipline and customer service at Java House.</p>
+        </div>
+
+        <button class="collapsible">Sales & Real Estate</button>
+        <div class="content">
+          <p>Ventured into sales and real estate, gaining people and negotiation skills.</p>
+        </div>
+
+        <button class="collapsible">Digital Growth</button>
+        <div class="content">
+          <p>Became a social media manager and brand ambassador - building online communities.</p>
+        </div>
+
+        <button class="collapsible">Tech & Startups</button>
+        <div class="content">
+          <p>Joined Uber operations, co-founded <b>PlanetAuto</b>, and now building <b>JuaKazi</b> - a career networking platform for Kenya.</p>
+        </div>
+      </section>
+
+      <!-- Form -->
+      <section id="formSection">
+        <h2> Connect With Me</h2>
+        <form id="contactForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter your email" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" placeholder="Write me a message" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+        <p id="formFeedback"></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Vincent Tochi &copy; 2025</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
